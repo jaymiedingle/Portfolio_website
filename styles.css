@@ -7,8 +7,13 @@ body{
     font-family: 'Poiret One', cursive;
 }
 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 #navbar{
-    border: 2px solid yellow;
+    border: 2px solid rgba(241, 147, 130, 0.425);
+    background-color:  rgba(245, 150, 133, 0.822);;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -17,10 +22,10 @@ body{
     left: 0;
 }
 .nav-list{
-    border: 2px solid red;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.5em;
     
 }
 .nav-list li{
@@ -28,7 +33,25 @@ body{
 }
 
 .content-section{
-    border: 2px solid blue;
-    text-align: center;
-    padding: 278px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#welcome-section{
+    background-image: url("images/backgrond-cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    margin: 10px 0;
+}
+.contact-links img{
+    width: 60px;
+    padding:30px;
 }
