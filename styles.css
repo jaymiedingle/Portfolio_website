@@ -11,6 +11,7 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+
 #navbar{
     border: 2px solid rgba(241, 147, 130, 0.425);
     background-color:  rgba(245, 150, 133, 0.822);;
@@ -21,6 +22,7 @@ a{
     top: 0;
     left: 0;
 }
+
 .nav-list{
     list-style-type: none;
     display: flex;
@@ -28,11 +30,14 @@ a{
     font-size: 1.5em;
     
 }
+
 .nav-list li{
     padding: 20px 40px;
 }
 
-.content-section{
+.content-section,
+.video,
+.pricing{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,15 +48,32 @@ a{
 }
 
 #welcome-section{
-    background-image: url("images/backgrond-cover.jpg");
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm85-tong-08_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e9751deb30bb1843d95a3fcb0d9ff116");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .wrapper{
-    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .contact-links img{
-    width: 60px;
-    padding:30px;
+    width: 50%;
+    padding: 97px;
 }
+
+
+.contact-links {
+    transition: transform .2s;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .contact-links:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
