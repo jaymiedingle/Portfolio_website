@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poiret One', cursive;
+}
+
+#welcome-content{
+    font-size: 34px;
+    line-height: 40px;
+    background-image: url("../images/trans-pink.png");
+    padding:25px 25px 35px;
+    text-align: left;
+    position: relative;
+    color:#000;
+    width:100%;
+    height:240px;
+}
+
+#welcome-content strong{
+    color:#fff;
+    font-size: 60px;
+}
+
+#welcome-content span{
+    color:#fff;
+    font-size: 42px;
+}
+
+.profile-pic{
+    position:absolute;
+    top:160;
+    right: -20px;
+}
+
+h2{
+    background-image: url("../images/trans-pink.png");
+    color:#fff;
+    font-size: 42px;
+    padding: 8px 0;
+    max-width:250px;
+    margin: 0 auto;
+}
